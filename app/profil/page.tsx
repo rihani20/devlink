@@ -1,10 +1,18 @@
-import React from 'react'
+import React from "react";
+
+async function getData() {
+  const res = await fetch("https://jsonplaceholder.typicode.com/users/1");
+  return res.json();
+}
+
+const data = await getData();
 
 export default function Profil() {
   return (
-       <main className="flex flex-col items-center justify-center min-h-screen bg-white text-gray-900">
-      <h1 className="text-3xl font-bold mb-4">Mon Profil 👤</h1>
-      <p className="text-gray-600">Ici, tu pourras modifier ton nom, ta bio et ton avatar.</p>
-    </main>
-  )
+    <div className="p-10">
+      <h1 className="text-2xl font-bold mb-4">Profil : {data.name}</h1>
+      <p>Email : {data.email}</p>
+      <p>Ville : {data.address.city}</p>
+    </div>
+  );
 }

@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import Button from "./Components/Button";
 
 export default function Home() {
   return (
@@ -13,6 +16,8 @@ export default function Home() {
       >
         Commencer
       </Link>
+
+      <Button  color="red" type="button" onClick={() => alert("hello")} />
     </main>
   );
 }

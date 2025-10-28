@@ -1,0 +1,33 @@
+[
+    {
+        "username": "medhedi",
+        "name": "Med Hedi Ben Kacem",
+        "bio": "Développeur full-stack passionné par Next.js et Tailwind.",
+        "links": [
+            {
+                "title": "GitHub",
+                "url": "https://github.com/benkacemmedhedi"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://monportfolio.dev"
+            }
+        ]
+    },
+    {
+        "username": "tomi",
+        "name": "Tomi Rahmadani",
+        "bio": "Créateur de contenu et développeur front-end.",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://linkedin.com/in/tomi"
+            },
+            {
+                "title": "Site",
+                "url": "https://tomi.dev"
+            }
+        ]
+    }
+
+]
