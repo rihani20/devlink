@@ -19,6 +19,12 @@ export default function Header() {
           <Link href="/liens" className="text-gray-800 hover:text-blue-600">
             Liens
           </Link>
+          <Link href="/compteur" className="text-gray-800 hover:text-blue-600">
+            Compteur
+          </Link>
+          <Link href="/mp" className="text-gray-800 hover:text-blue-600">
+            Mini Projet crud
+          </Link>
         </div>
       </nav>
     </header>
